@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"D:/node/keshe/backend/src/main/java/com/keshe/{config,common/exception,entity,enums,mapper,service/impl,controller,dto}\")",
+      "Bash(mkdir -p \"D:/node/keshe/backend/src/main/resources/mapper\")",
+      "Bash(mkdir -p \"D:/node/keshe/frontend/src/{router,store,api,views/{system,device,access,visitor,attendance,report},components,utils,assets}\")",
+      "Bash(mkdir -p \"D:/node/keshe/sql\")",
+      "Bash(mvn compile *)",
+      "Bash(node -e \"const bcrypt = require\\('bcryptjs'\\) || null; console.log\\(bcrypt ? 'ok' : 'no bcryptjs'\\)\")",
+      "Bash(mvn spring-boot:run)",
+      "Bash(curl -s -X POST http://localhost:8080/api/auth/login -H \"Content-Type: application/json\" -d '{\"username\":\"admin\",\"password\":\"123456\"}')",
+      "Bash(kill -9 12704)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill /F /PID 12704)",
+      "Bash(cmd.exe /c \"taskkill /F /PID 12704\")",
+      "Bash(curl -s http://localhost:8080/api/system/permission/tree -H 'Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJ1c2VyVHlwZSI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwic3ViIjoiYWRtaW4iLCJpYXQiOjE3ODE1MzczODMsImV4cCI6MTc4MTYyMzc4M30.2EuTNvg2uVWWgQjECwE8Bp32z1oyvxVkMmCmK4wfmpjBVK2_Y0AtR4NE1vkoNe2c')",
+      "Bash(mysql -u root -pwangboxuan keshe_door)",
+      "Bash(mysql *)",
+      "Bash(powershell \"Get-Process -Id \\(Get-NetTCPConnection -LocalPort 8080\\).OwningProcess -ErrorAction SilentlyContinue | Stop-Process -Force\")",
+      "Bash(findstr \":8080 \")"
+    ]
+  }
+}

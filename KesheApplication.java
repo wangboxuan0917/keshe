@@ -1,0 +1,17 @@
+package com.keshe;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan("com.keshe.mapper")
+public class KesheApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(KesheApplication.class, args);
+        System.out.println("==============================================");
+        System.out.println("  智能门禁管理系统 - 启动成功!");
+        System.out.println("  Swagger: http://localhost:8080/doc.html");
+        System.out.println("==============================================");
+    }
+}
